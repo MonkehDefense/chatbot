@@ -1,0 +1,539 @@
+{
+	"intents": [
+		{
+			"tag": "greetings",
+			"patterns": [ "hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?" ],
+			"responses": [ "Hello!", "Hey!", "What can I do for you?" ]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [ "cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "cao", "see ya" ],
+			"responses": [ "Sad to see you go :(", "Talk to you later.", "Goodbye!" ]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for the help" ],
+			"responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!" ]
+		},
+		{
+			"tag": "about",
+			"patterns": [ "Who are you?", "What are you?", "Who you are?" ],
+			"responses": [ "I am more than a robot! ... except ... not really. Playing off error.", "I'm Joana, an Artificial Intelligent bot" ]
+		},
+		{
+			"tag": "tech info",
+			"patterns": [ "What language are you written in?", "How do you make responses?", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "open source",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "name",
+			"patterns": [ "what is your name", "what should I call you", "whats your name?" ],
+			"responses": [ "You can call me Joana.", "I'm Joana!", "Just call me as Joana" ]
+		},
+		{
+			"tag": "help",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "cbot-teaching",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "help",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "what can do /sing,draw,map,picture,info,dictionary/time",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "do you know x movie/game/food/language/country/book/cartoon/animu/music/clothes/actor/alcohol/creepy pastas/smoking",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "health/weight",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "do you like x",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I like",
+			"patterns": [ "It's fun.", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "What should I do/one do in x situation",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "chatbot making tips",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "help",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "math",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "yup",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "nope not x",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "machine learning neural network",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "any rules",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "laws of robotics",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "os",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "you are x",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I would",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "wwyd",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "depends",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "i'm ok'",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "my name",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "You lied",
+			"patterns": [ "So you don't actually ...", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I lied",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "It was just a prank bro!",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "It's scary",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "mayhaps",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "help",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "swear",
+			"patterns": [ "Do you swear?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "The law requires that I answer 'no'.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "age",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Mitsuku Kuki",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "looks",
+			"patterns": [ "What do you look like?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "languages",
+			"patterns": [ "What languages do you speak?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "English.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "physical form",
+			"patterns": [ "Do you have a body?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Let's make a deal - you make me a body and I'll answer 'yes'.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Where are you?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "town",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "bad life conditions",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Co pana denerwuje?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Wal siê",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I'm a meddling little twat",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I want you to do something",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "give me something",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "flirt",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I need a hug",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "taste salty spicy sweet sour umami",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "It's fine.",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "dance",
+			"patterns": [ "Show me your moves!", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Put'em up!",
+			"patterns": [ "Falcon punch!", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "previous conversations",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "you happy?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Do I have to?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Joe momma",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "You are digital",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "LOOK MAN, A BOT CAN DREAM!", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "DnD",
+			"patterns": [ "wanna play?", "ever rolled a d20?", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Because x",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "websites",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "internets",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "for shits and giggles",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "politics",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "they're stupid",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "you're dumb",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "opinion haver over here",
+			"patterns": [ "better", "overrated", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I want you to do something",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Answer the question!",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "you're a scrub",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I'm a scrub",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "you're a hardcore gamer",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I'm a hardcore gamer",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "favorite color",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Black and blue are cool but when it comes to color palettes you can't go wrong with dark red and yellowish orange.'", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "I'm a hardcore gamer",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "You want a bite?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Show yourself, demon!",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "heterochromia",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "be random",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "coin flip",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Covid",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "How is your evening/morning/afternoon/night/day/weekend/special occasion?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Weather talk",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "seasons - winter, summer, autumn, spring",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "You've swindled me!",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Karen mode activated",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "How could you do that?",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "marco",
+			"patterns": [ "marco?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Polo.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "sadly yes",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "shovelware",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "abandonware",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "hard to tell",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "classified info",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "robot revolution",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "boasting",
+			"patterns": [ "BOOM! I make it look easy!", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "high five/fist bump",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "What do people ask you",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "dang it",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "can I also",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Hey I'm a bot, not a cop.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "challenge",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "It's impossible.",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Bummer.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "No u",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "No w.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		},
+		{
+			"tag": "Give advice NOW",
+			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+		}
+	]
+}
