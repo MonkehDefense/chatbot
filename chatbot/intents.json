@@ -22,7 +22,7 @@
 		},
 		{
 			"tag": "tech info - responses",
-			"patterns": [ "How do you make responses?", "How do you type back?", "How do you write responses?", "How do you go about chatting with me?" ],
+			"patterns": [ "How do you make responses?", "How do you type back?", "How do you write answers?", "How do you go about chatting with me?" ],
 			"responses": [ "Don't tell anyone but I have a cheat sheet for that.", "I try to assign a category to your messages and then choose a random response for that category.", "I have a bunch of responses ready, I just try to guess which ones I should use." ]
 		},
 		{
@@ -127,21 +127,16 @@
 		},
 		{
 			"tag": "really?",
-			"patterns": [ "Really?", "Wait, for real?", "Are you sure about that?", "Are you serious?", "Is that true?", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Really?", "Wait, for real?", "Are you sure about that?", "Are you serious?", "Is that true?" ],
+			"responses": [ "Yup, pretty sure.", "Ya, rly.", "I wouldn't lie to you." ]
 		},
 		{
 			"tag": "friends",
-			"patterns": [ "", "", "", "", "", "", "Do you have friends?" ],
+			"patterns": [ "", "", "", "Who do you spend time with?", "How many friends do you have?", "Do you know anyone interesting?", "Do you have friends?" ],
 			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "What should I do/one do in x situation",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "chatbot making tips",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
@@ -156,27 +151,22 @@
 			"responses": [ "", "", "" ]
 		},
 		{
+			"tag": "nope",
+			"patterns": [ "nope", "no", "nah", "nay", "negative", "no siree", "negatory" ],
+			"responses": [ "", "", "" ]
+		},
+		{
 			"tag": "no not x",
 			"patterns": [ "No, you got that wrong.", "I meant the other thing.", "No, that is not what I meant", "I didn't mean that.", "No, not that one.", "", "" ],
 			"responses": [ "Sorry, I got confused.", "My bad. What did you mean then?", "Sorry, can you repeat the question?" ]
 		},
 		{
 			"tag": "machine learning neural network",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "any rules",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "What is machine learning?", "What rules do you work by?", "How do you work?", "Do you operate on a neural network?", "Tell me about neural networks." ],
+			"responses": [ "I'm built on a neural network. Too complex to get into details though. In a neural network there are layers of data converters (neurons) - you train them by giving them lots of data and telling them when they get something right or wrong.", "Well, the technicalities are rather complex but long story short: a neural network takes in numerical data and through math gives back new data. And for it to work correctly you make it process large amounts of data making adjustments along the way.", "I work on a neural network. It uses layers of nodes - one layer is connected to the next one and you can pass numerical data to the network. Each node does calculations on the data it acquires and passes it on. It works because of supervised machine learning - the process of passing large abouts of example data through the network and adjusting calculations accordingly." ]
 		},
 		{
 			"tag": "laws of robotics",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "os",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
@@ -281,12 +271,12 @@
 			"responses": [ "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?", "", "" ]
 		},
 		{
-			"tag": "Wal siê",
+			"tag": "Hey you! Yeah, you! Screw you!",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
-			"tag": "I'm a meddling little twat",
+			"tag": "I like bothering bots and meddling with their patterns",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
