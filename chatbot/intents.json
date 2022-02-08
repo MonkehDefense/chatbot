@@ -147,13 +147,13 @@
 		},
 		{
 			"tag": "yup",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"patterns": [ "ye", "yup", "yes", "correct", "that's right", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
-			"tag": "nope not x",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "no not x",
+			"patterns": [ "No, you got that wrong.", "I meant the other thing.", "No, that is not what I meant", "I didn't mean that.", "No, not that one.", "", "" ],
+			"responses": [ "Sorry, I got confused.", "My bad. What did you mean then?", "Sorry, can you repeat the question?" ]
 		},
 		{
 			"tag": "machine learning neural network",
