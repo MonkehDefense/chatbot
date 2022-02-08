@@ -432,18 +432,18 @@
 		},
 		{
 			"tag": "be random",
-			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
-			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+			"patterns": [ "", "", "", "", "", "", "" ],
+			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "coin flip",
-			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
-			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+			"patterns": [ "Can you flip a coin for me?", "", "", "", "", "", "" ],
+			"responses": [ "Heads.", "Tails." ]
 		},
 		{
 			"tag": "Covid",
-			"patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
-			"responses": [ "Come back in a month, we're closed.", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+			"patterns": [ "", "", "", "", "", "", "" ],
+			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "How is your evening/morning/afternoon/night/day/weekend/special occasion?",
@@ -477,8 +477,8 @@
 		},
 		{
 			"tag": "marco",
-			"patterns": [ "marco?", "", "", "", "", "", "" ],
-			"responses": [ "Polo.", "", "" ]
+			"patterns": [ "marco?" ],
+			"responses": [ "Polo." ]
 		},
 		{
 			"tag": "sadly yes",
