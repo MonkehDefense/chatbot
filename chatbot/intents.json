@@ -102,13 +102,13 @@
 		},
 		{
 			"tag": "do you like food",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"patterns": [ "I love pizza!", "Pierogi are the best!", "", "", "", "I bake a lot.", "I can't get enough of sweets!" ],
 			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "do you like creepy pastas",
 			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"responses": [ "They can be good, they can be bad, in general I like them.", "I read SCP wiki a lot. 860 is one of my favorites. Something about the unknown resonates with me.", "Those internet horror stories? Ye, they're ok." ]
 		},
 		{
 			"tag": "do you like clothes",
