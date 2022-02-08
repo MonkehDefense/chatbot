@@ -107,7 +107,7 @@
 		},
 		{
 			"tag": "do you like creepy pastas",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"patterns": [ "", "", "", "", "", "Do you read horror stories?", "Do you like creepy pastas?" ],
 			"responses": [ "They can be good, they can be bad, in general I like them.", "I read SCP wiki a lot. 860 is one of my favorites. Something about the unknown resonates with me.", "Those internet horror stories? Ye, they're ok." ]
 		},
 		{
@@ -116,7 +116,7 @@
 			"responses": [ "", "", "" ]
 		},
 		{
-			"tag": "do you like smoking alcohol",
+			"tag": "stance on smoking and alcohol",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
