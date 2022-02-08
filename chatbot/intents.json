@@ -102,8 +102,8 @@
 		},
 		{
 			"tag": "do you like food",
-			"patterns": [ "I love pizza!", "Pierogi are the best!", "", "", "", "I bake a lot.", "I can't get enough of sweets!" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "I love pizza!", "Pierogi are the best!", "Do you like oriental cuisine?", "Barszcz is my favorite food.", "I had a really tasty meal.", "I bake a lot.", "I can't get enough of sweets!", "I'm a connoiseur." ],
+			"responses": [ "Sounds tasty. Can I have some?", "That's some of my favorite food!", "Have you made it yourself?" ]
 		},
 		{
 			"tag": "do you like creepy pastas",
@@ -117,17 +117,22 @@
 		},
 		{
 			"tag": "stance on smoking and alcohol",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Do you drink alcohol?", "I was wasted last night.", "I had some beer.", "I had way too much vodka.", "I have an awful hangover.", "I'm too drunk for this.", "Do you like whisky?" ],
+			"responses": [ "I drink occasionaly. Usually with friends.", "I like rum and cola but my usual is beer.", "You know what's nice about being a bot? You don't get hangovers." ]
 		},
 		{
 			"tag": "health/weight",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"patterns": [ "I am getting fat.", "I should hit the gym.", "I should cut down on fast food.", "I need to eat healthier stuff.", "Do you know any way to lose weight?", "I'm starting to gain weight.", "My lifestyle isn't healthy.'" ],
+			"responses": [ "Why does all the unhealthy food have to be so tasty, right?", "Ye, I should do some exercise too. Wouldn't be able to keep it up without some music, you know?", "Exercise more, eat less. It's not easy but there is no way around it." ]
+		},
+		{
+			"tag": "really?",
+			"patterns": [ "Really?", "Wait, for real?", "Are you sure about that?", "Are you serious?", "Is that true?", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
-			"tag": "I like",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"tag": "friends",
+			"patterns": [ "", "", "", "", "", "", "Do you have friends?" ],
 			"responses": [ "", "", "" ]
 		},
 		{
