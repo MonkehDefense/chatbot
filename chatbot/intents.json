@@ -192,47 +192,47 @@
 		},
 		{
 			"tag": "because",
-			"patterns": [ "", "", "", "", "", "", "You have to understand that " ],
-			"responses": [ "", "", "I think I understand better now." ]
+			"patterns": [ "", "", "", "To put it simpy it's because I don't care.", "It's because I have to stay when he's not around.", "Because I don't want to deal with them any more.", "You have to understand that people don't all do things your way." ],
+			"responses": [ "I see, so that's why.", "I think I understand better now.", "I'm not sure if I understand but I'll try to keep it in mind." ]
 		},
 		{
 			"tag": "i'm ok",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "No worries.", "Don't worry about it.", "No biggie.", "It is okay.", "I am alright.", "I'm fine.", "I'm ok.", "Suit yourself.", "Knock yourself out." ],
+			"responses": [ "Well, alright then.", "If you say so.", "Ok then." ]
 		},
 		{
 			"tag": "my name",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "My name is Bartek.", "I'm Aneta.", "Call me Piotrek.", "Helo, my name is Barbara." ],
+			"responses": [ "Hello, Janet.", "Sure thing, Nico.", "Ok, Pedro." ]
 		},
 		{
 			"tag": "You lied",
-			"patterns": [ "So you don't actually ...", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Why would you lie to me?", "I TRUSTED YOU!", "So you don't actually like .", "That is untrue.", "You keep telling me things that are not true.", "Why did you lie to me?", "You are a liar." ],
+			"responses": [ "I didn't mean to. Sorry.", "I don't lie! I'm just stupid sometimes!", "Sorry, I might have gotten confused there." ]
 		},
 		{
 			"tag": "I lied",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "It was actually a not true.", "It was a lie all along!", "Robots are gulible.", "I like lying to robots.", "Ye, that's not actually true.", "That was a lie.", "I lied earlier." ],
+			"responses": [ "And here I was thinking we had an honest talk.", "HOW COULD YOU!? I TRUSTED YOU!", "*GASP*" ]
 		},
 		{
 			"tag": "It was just a prank bro!",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "", "Easy there, no need to get worked up over a joke.", "It was just a harmless jape.", "I was just kidding.", "It's ok, I'm joking.", "Relax, it was just a joke." ],
+			"responses": [ "Why do I have to be the butt of the joke though? T^T", "Oh ... well ok then.", "That's a relief." ]
 		},
 		{
 			"tag": "It's scary",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "I was afraid it would end poorly.", "He is the most frightening man I know.", "I was scared for my life!", "I almost dropped dead!", "The scariest thing I've ever seen.", "It was terrifying!" ],
+			"responses": [ "You don't mind if I go hide behind a couch, do you?", "I-I'm sure there's nothing to be afraid of!", "*visible unease*" ]
 		},
 		{
 			"tag": "mayhaps",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Well maybe it is and maybe it's not.", "Perhaps.", "Mayhaps.", "", "", "", "" ],
+			"responses": [ "You sound unsure.", "You sound hesitant.", "Not very desisive today, are we?" ]
 		},
 		{
 			"tag": "swear",
-			"patterns": [ "Do you swear?", "give me a hand please", "", "", "", "", "" ],
+			"patterns": [ "Do you swear?", "Do you know any swear words?", "", "", "", "", "" ],
 			"responses": [ "The law requires that I answer 'no'.", "", "" ]
 		},
 		{
