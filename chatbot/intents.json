@@ -287,33 +287,23 @@
 		},
 		{
 			"tag": "give me something",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Your stuff is mine!", "Give me everything you've got.", "I need a wrench.", "Give me a piece of paper.", "Do you have a pen on you?", "I need to have your signature.", "Could you lend me some money?" ],
+			"responses": [ "No.", "Sure! As soon as I can physically give you anything.", "You will have it when you pry it from my cold dead hands! And even then good luck because I'll will have glued it to my cold dead hands!" ]
 		},
 		{
 			"tag": "flirt",
 			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"responses": [ "", "", "O.O" ]
 		},
 		{
 			"tag": "I need a hug",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "taste salty spicy sweet sour umami",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "It's fine.",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Nothing goes my way.", "I keep failing at everything.", "I feel awful.", "I'm having a rough time.", "I'm depressed.", "I am sad.", "Could you give me a hug?" ],
+			"responses": [ "Come on, get yourself together. You are amazing and you will do great. Just give it some time.", "Don't worry. Better times will come eventually.", "There there. I'm sure everything will be alright." ]
 		},
 		{
 			"tag": "dance",
 			"patterns": [ "Show me your moves!", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"responses": [ "", "", "*does a robot*" ]
 		},
 		{
 			"tag": "Put'em up!",
@@ -323,7 +313,7 @@
 		{
 			"tag": "previous conversations",
 			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "*does a robot*" ]
+			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "you happy?",
