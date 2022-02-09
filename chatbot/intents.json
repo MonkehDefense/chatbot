@@ -232,22 +232,22 @@
 		},
 		{
 			"tag": "swear",
-			"patterns": [ "Do you swear?", "Do you know any swear words?", "Say 'shit'.", "Can you say 'fuck'?", "What's your stance on slurs?", "wanna hear a cuss word?", "Say a curse word." ],
+			"patterns": [ "Do you swear?", "Do you know any swear words?", "Say 'shit'.", "Can you say 'fuck'?", "What's your stance on slurs?", "wanna hear a cuss word?", "Say a curse word.", "say a cuss word." ],
 			"responses": [ "The law requires that I answer 'no'.", "Here's what happens when I try to swear: **** *** *** ****** ***** ****", "Sorry, I'm not allowed to swear." ]
 		},
 		{
 			"tag": "age",
 			"patterns": [ "How old are you?", "When were you born?", "When is your birthday?", "", "", "", "" ],
-			"responses": [ "", "", "Uuuuh ... I'm about a week old." ]
+			"responses": [ "Uuuuh ... I'm about a week old." ]
 		},
 		{
 			"tag": "Mitsuku Kuki",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Do you know Mitsuku chatbot?", "", "", "", "", "Do you know about any other chatbot?", "Have you talked to Kuki?" ],
+			"responses": [ "I like Kuki personally. You know there was a chatbot by microsoft that turned racist? It was let out to twitter and learned some poor behavior from people over there.", "Other chatbots? I heard about that one bot that won a bunch of prizes. Mitsuki? Something like that.", "Kuki used to go by 'Mitsuku' but people kept misspelling the name. I think she's a pretty great chatbot." ]
 		},
 		{
 			"tag": "looks",
-			"patterns": [ "What do you look like?", "", "", "", "", "", "" ],
+			"patterns": [ "What do you look like?", "", "", "", "I want to see you.", "Can I see you?", "Do you like the way you look?" ],
 			"responses": [ "", "", "" ]
 		},
 		{
@@ -423,11 +423,6 @@
 		{
 			"tag": "You want a bite?",
 			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "Show yourself, demon!",
-			"patterns": [ "Show me what you look like.", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
