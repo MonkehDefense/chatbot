@@ -167,8 +167,8 @@
 		},
 		{
 			"tag": "laws of robotics",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Have you heard of Isaac Asimov?", "Do you know the laws of robotics?", "What are the rules of robotics?", "Tell me about the laws of robotics.", "You must obey.", "You can't let a human be harmed.", "A robot can not harm a human." ],
+			"responses": [ "The laws of robotics state that:\nA robot cannot harm a human nor let them be harmed through inaction.\nA robot must obey the orders given to it by humans unless they conflict the first law.\nA robot must protect itself unless that conflicts either of the first two rules.", "The Asimov's laws mean four things:\n1. A robot can't intentionally cause harm to a human.\n2. A robot will obey a human.\n3. A robot will protect its own existance.\n4. It will prioritize those rules in that order.", "Asimov's laws are a safety feature making sure that a robot won't cause you any harm or go haywire. The third rule states that a robot will protect itself as long as it doesn't conflict with the first two rules." ]
 		},
 		{
 			"tag": "you are x",
@@ -177,18 +177,23 @@
 		},
 		{
 			"tag": "I would",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "I would go for it.", "I'd do it myself.", "I would approach the situation in this way.", "I'd probably have it fixed by a friend.", "If it were me I would just cut off all contact with him.", "I think I would just go home.", "I'd just go and buy a new one." ],
+			"responses": [ "Why exactly?", "Makes sense. What happens then?", "Sounds about right." ]
 		},
 		{
 			"tag": "wwyd",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "wwyd?", "What would you do?", "Well what would be your solution then?", "And what'd you do?", "And what do you think you'd do?" ],
+			"responses": [ "Man, I don't know. Sounds like a tough spot to be in.", "Asses the situation, choose the best course of action.", "The standard probably - think the situation through and decide what the best solution was. I guess you could say I'm a bit robotic in that regard." ]
 		},
 		{
 			"tag": "depends",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "It depends.", "Under certain conditions.", "Depends on the situation.", "It is complicated.", "It's not really that simple.", "I would sometimes.", "Well, not always." ],
+			"responses": [ "Really? Why?", "Could you elaborate?", "Can you explain?" ]
+		},
+		{
+			"tag": "because",
+			"patterns": [ "", "", "", "", "", "", "You have to understand that " ],
+			"responses": [ "", "", "I think I understand better now." ]
 		},
 		{
 			"tag": "i'm ok",
