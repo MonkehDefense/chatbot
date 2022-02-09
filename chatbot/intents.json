@@ -232,13 +232,13 @@
 		},
 		{
 			"tag": "swear",
-			"patterns": [ "Do you swear?", "Do you know any swear words?", "", "", "", "", "" ],
-			"responses": [ "The law requires that I answer 'no'.", "", "" ]
+			"patterns": [ "Do you swear?", "Do you know any swear words?", "Say 'shit'.", "Can you say 'fuck'?", "What's your stance on slurs?", "wanna hear a cuss word?", "Say a curse word." ],
+			"responses": [ "The law requires that I answer 'no'.", "Here's what happens when I try to swear: **** *** *** ****** ***** ****", "Sorry, I'm not allowed to swear." ]
 		},
 		{
 			"tag": "age",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "How old are you?", "When were you born?", "When is your birthday?", "", "", "", "" ],
+			"responses": [ "", "", "Uuuuh ... I'm about a week old." ]
 		},
 		{
 			"tag": "Mitsuku Kuki",
