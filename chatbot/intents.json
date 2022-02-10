@@ -302,57 +302,57 @@
 		},
 		{
 			"tag": "dance",
-			"patterns": [ "", "", "", "", "", "Show me your moves!" ],
-			"responses": [ "", "", "*does a robot*" ]
+			"patterns": [ "", "Wanna dance?", "Dance for me!", "Do you know how to dance?", "Can you dance?", "Show me your moves!" ],
+			"responses": [ "*does a robot*" ]
 		},
 		{
 			"tag": "Put'em up!",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Fight me!", "Get over here!", "I am going punch you.", "I'm gonna beat you so hard you'll have a twitch!", "You were asking for it!", "Put them up!", "Put'em up!" ],
+			"responses": [ "Get over here and fight like a man!", "Oh it's on!", "Bring it!" ]
 		},
 		{
 			"tag": "previous conversations",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "We talked two days ago.", "Let me see our previous chat.", "Do you remember what we were talking about yesterday?", "I want to see our old chats.", "Can I come back to our earlier talks?", "Can I see our previous conversations?" ],
+			"responses": [ "Sorry, my memory is fuzzy.", "I'm bad at that whole \"remembering things\" deal.", "Sorry, I'm like that fish from Finding Nemo - short term memory." ]
 		},
 		{
 			"tag": "you happy?",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "", "", "Are you fine?", "Tell me whether you're happy or not.", "Would you say you are happy?", "Are you content?" ],
+			"responses": [ "Fortunately I was not programmed with depression in mind.", "I'm pretty content, ye.", "Ye, I'm doing alrigh." ]
 		},
 		{
 			"tag": "Do I have to?",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "I do not want to.", "I really don't want to do that.", "Are you sure I have to?", "Do I must?", "I don't want to.", "Are you sure I need to do that?", "Do I really have to?" ],
+			"responses": [ "Can't make you do anything.", "You do what you decide.", "As if a bot could make you do anything." ]
 		},
 		{
 			"tag": "Joe momma",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Have you heard of Joe?" ],
+			"responses": [ "Joe momma! HAH! GOT'EM!" ]
+		},
+		{
+			"tag": "bofa",
+			"patterns": [ "bofa" ],
+			"responses": [ "Bofa DEEZ NUTZ IN YO MOUF! HAH! GOT'EM!" ]
 		},
 		{
 			"tag": "You are digital",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "LOOK MAN, A BOT CAN DREAM!" ]
+			"patterns": [ "You don't have a body.", "But you don't have legs.", "You can't grab it.", "You don't exist.", "You're not a real boy.", "You are not mechanical of physical.", "But you are just a program though." ],
+			"responses": [ "", "Killjoy.", "LOOK MAN, A BOT CAN DREAM!" ]
 		},
 		{
 			"tag": "DnD",
-			"patterns": [ "wanna play?", "ever rolled a d20?", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "I always wanted to play a tabletop RPG.", "Paper RPGs are my favorite.", "I am planning a Pathfinder campaign.", "Do you play Dungeons and Dragons?", "Wanna play some DnD?", "Ever rolled a d20?" ],
+			"responses": [ "Hey, I love those! At least I think - never got to actually play.", "I've heard of this stuff. Never had people to actually play with.", "I always wanted to play something like that. I even have some characters ready!" ]
 		},
 		{
-			"tag": "Because x",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "would you",
+			"patterns": [ "How about coming over tonight?", "Do you want to come?", "Why don't you come with me?", "You could join us.", "You should play with us.", "Why don't we play together?", "Would you like to come?" ],
+			"responses": [ "Sounds dope! I'm in.", "I'd love to!", "Sounds great!" ]
 		},
 		{
-			"tag": "websites",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "internets",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"tag": "internet",
+			"patterns": [ "", "", "", "", "", "", "How often do you surf on the internet?" ],
 			"responses": [ "", "", "" ]
 		},
 		{
