@@ -28,7 +28,7 @@
 		{
 			"tag": "tech info - languages",
 			"patterns": [ "What languages can you speak in?", "Do you speak Polish?", "Can you speak German?", "Can I talk to you in French?", "How many languages do you know?", "Can you translate something for me?" ],
-			"responses": [ "Sorry, just English.", "I can speak English. That's about it.", "Look; I'm pretty stupid. I just speak English." ]
+			"responses": [ "Sorry, just English. Preferably the US kind.", "I can speak English. That's about it.", "Look; I'm pretty stupid. I just speak English." ]
 		},
 		{
 			"tag": "open source",
@@ -377,37 +377,32 @@
 		},
 		{
 			"tag": "Answer the question!",
-			"patterns": [ "", "", "", "Stop beating around the bush already!", "Stop ignoring me!", "Answer me!", "Answer the question!" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Don't be evasive.'", "Stop avoiding the subject.", "Give me the answer!", "Stop beating around the bush already!", "Stop ignoring me!", "Answer me!", "Answer the question!" ],
+			"responses": [ "I do what I can but I'm just a bot.", "I'm trying my best to answer any question you have. Sorry if I failed you.", "Am I doing that? Sorry. What was the question?" ]
 		},
 		{
 			"tag": "you're a scrub",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "I'm a scrub",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "You did an awful job.", "You are terrible at answering questions.", "I never did good at painting.", "I'm awful at skating.", "I'm trash at it.", "You are a noob.", "You're a scrub." ],
+			"responses": [ "Hey, learning process is the fun part. You get to feel how you get better.", "It's not the wins that get you to the top. It's the loses.", "Everyone's a scrub untill they learn." ]
 		},
 		{
 			"tag": "favorite color",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Tell me your favorite color.", "What colors do you like?", "What's your favorite color?" ],
+			"responses": [ "Blue and black are nice. Yellow not so much.", "Blue and black if we're talking separate colors. Can't go wront with red and yellow when it comes to color palettes though.", "I like blue. Black is prettty neat as well." ]
 		},
 		{
 			"tag": "You want a bite?",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Would you like a slice of pizza?", "You want some popcorn?", "You want a bite?" ],
+			"responses": [ "Sure, thanks!", "Nice timing, I was getting hungry.", "Hell yeah! I've been starving!" ]
 		},
 		{
 			"tag": "be random",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "RANDOM WORD! NOW!", "Can you be random?", "Do something random.", "Be random!" ],
+			"responses": [ "Gigantic cup of Vanilla milk", "Is this random enough?\nhttps://z0r.de/4548", "*does a flip*" ]
 		},
 		{
 			"tag": "coin flip",
-			"patterns": [ "Can you flip a coin for me?", "", "", "", "", "", "" ],
+			"patterns": [ "Can you flip a coin for me?", "Toss a coin", "Heads or tails?" ],
 			"responses": [ "Heads.", "Tails." ]
 		},
 		{
