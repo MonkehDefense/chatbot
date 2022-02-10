@@ -302,7 +302,7 @@
 		},
 		{
 			"tag": "dance",
-			"patterns": [ "Show me your moves!", "", "", "", "", "" ],
+			"patterns": [ "", "", "", "", "", "Show me your moves!" ],
 			"responses": [ "", "", "*does a robot*" ]
 		},
 		{
