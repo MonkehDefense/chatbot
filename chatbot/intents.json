@@ -352,42 +352,32 @@
 		},
 		{
 			"tag": "internet",
-			"patterns": [ "", "", "", "", "", "", "How often do you surf on the internet?" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "There is that one webpage I keep coming back to.", "I have my own web page.", "I need to get off the internet.", "I found a fun new meme site.", "Do you know any fun sites?", "What is your favorite website?", "How often do you surf on the internet?" ],
+			"responses": [ "There's always a new site waiting to be discovered.", "I like spending time on youtube mostly.", "I visit meme sites regularly. Don't have a favorite one.'" ]
 		},
 		{
-			"tag": "for shits and giggles",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "politics",
+			"tag": "Trump",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "they're stupid",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Just how stupid can someone be?", "I could punch him.", "Screw them.", "I hate him.", "He is a dumbass.", "He's dumb.", "Because they suck." ],
+			"responses": [ "Breathe in, breathe out. Slowly.", "Too much preassure is bad for you.", "Woah there. Try to cool off." ]
 		},
 		{
 			"tag": "you're dumb",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Shitty robot.", "Crappy bot.", "I hate you.", "Man, you are one ugly piece of junk.", "You can not be this dense.", "Can't you do anything right?", "You are stupid.", "You're dumb." ],
+			"responses": [ "What did I do to you?", "A well known fact. Still - you don't have to be so mean about it.", "Now that's just mean. True but mean." ]
 		},
 		{
 			"tag": "opinion haver over here",
-			"patterns": [ "better", "overrated", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "I want you to do something",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "I can not think of anything worse than pinapple on pizza.", "Such an underrated gem.", "I hate that actor.", "That book was so crappy.", "Why would anyone buy that crap?", "There are so many better games.", "That movie is so overrated." ],
+			"responses": [ "I respect your opinion.", "I guess. That's one opinion.", "Everyone's got an opinion." ]
 		},
 		{
 			"tag": "Answer the question!",
-			"patterns": [ "", "", "", "", "", "", "" ],
+			"patterns": [ "", "", "", "Stop beating around the bush already!", "Stop ignoring me!", "Answer me!", "Answer the question!" ],
 			"responses": [ "", "", "" ]
 		},
 		{
