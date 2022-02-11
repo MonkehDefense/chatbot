@@ -407,38 +407,38 @@
 		},
 		{
 			"tag": "Covid",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Stupid coronavirus.", "The pandemic sucks.", "I hate corona virus.", "Let's talk about covid.", "What do you know of covid?", "What can you tell me about covid?" ],
+			"responses": [ "COVID-19 is a contagious disease that has taken the world by storm. The first case was identified in Wuhan, China, in December of 2019. Wear a mask, wash your hands, stay safe.", "It sucks but we can't do much more than wash hands, wear masks and get vaccinated. Then again - the new version of the virus doesn't care much for the vaccine so what do I know?", "Well ... I can tell that you should wash your hands pretty often. Stay safe." ]
 		},
 		{
-			"tag": "How is your evening/morning/afternoon/night/day/weekend/special occasion?",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "How is your day?",
+			"patterns": [ "How are you doing?", "How's your evening?", "How was your weekend?", "How is your day?", "What are you doing today?", "How is afternoon?", "How was your birthday?" ],
+			"responses": [ "Oh I'm doing fine. Not much happening on my end. How are you doing?", "I was talking to a friend a couple days ago. Now I'm talking to you. As sad as it is there isn't much more to that.", "Things are going well. I mean we're talking and realistically that's my only past time so you're doing me a favor right now." ]
 		},
 		{
 			"tag": "Weather talk",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Do you think it's gonna be snowing any time soon?", "I wonder if the sun shows up soon.", "The weather is awful today.", "Can you tell me what the weather is in Warsaw?", "It just keeps raining.", "It's pretty sunny today.", "Nice weather we're having." ],
+			"responses": [ "I think the weather is nice today. Any plans for today?", "I usually don't like wind but yesterday I was playing terraria. 30 in game days and no wind. WHERE IS MY WINDY DAY, GAME!? I CAN'T FARM MY FORBIDDEN DESERT ARMOR WITHOUT IT!", "In my humble opinion any weather is nice. Sunny days are great for going outside and doing some cardio, rainy and snowy days are super cozy when you stay home and it's super nice to watch a storm unfold through your window. I guess I just don't like when it's windy." ]
 		},
 		{
-			"tag": "seasons - winter, summer, autumn, spring",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "seasons",
+			"patterns": [ "I hate winter.", "When is it finally gonna be summer?", "Winter is my favorite season.", "It's so hot in summer!", "I hate fall - it's too cold.", "Autumn is way too long.", "Can't we get to spring already?" ],
+			"responses": [ "I like when fall comes and I can go out in a hoodie. Never liked wearing shorts.", "Any season is fine as long as it's not summer in Egypt or Arabia.", "I like winter but only when it's a proper snowy winter. Summer is ok as long as you have AC or a fan." ]
 		},
 		{
-			"tag": "You've swindled me!",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "You swindled me!",
+			"patterns": [ "You cheeky bastard.", "You are such a troll.", "Who would have thought a robot would be such a fraud.", "I'm never trusting a robot again.", "You sly trickster!", "You tricked me!", "You swindled me!" ],
+			"responses": [ "Haters gonna hate.", "I am also somewhat of a shapeshifter. Watch as I transform into an internet troll!", "IT'S STRONGER THAN ME! I CAN'T HELP IT!" ]
 		},
 		{
 			"tag": "Karen mode activated",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Such an inconvenience.", "I will sue you!", "I am sueing.", "Take me to the owner.", "That doesn't apply to me!", "I demand a refund.", "I want to talk to your manager." ],
+			"responses": [ "You sure your name isn't Karen?", "Woke up on the wrong side of the bad today?", "Anger's not good for your beauty, Karen." ]
 		},
 		{
-			"tag": "How could you do that?",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"tag": "How could you?",
+			"patterns": [ "What were you thinking!?", "What have you done!?", "You have just made an enemy for life!", "How dare you!?", "I can not believe you did this to me.", "Why would you!?", "How could you do that!?" ],
+			"responses": [ "You are getting really worked up and I am not sure why.", "What did I do?", "I'm pretty sure I did nothing. I can only talk after all." ]
 		},
 		{
 			"tag": "marco",
@@ -447,33 +447,28 @@
 		},
 		{
 			"tag": "sadly yes",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
-			"tag": "shovelware abandonware",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Regrettably yes.", "I'm afraid so.", "I wish it wasn't true.", "I am afraid it's true.", "It's unfortunate but ye.", "Sadly yes." ],
+			"responses": [ "Is it that bad?", "Why so blue?", "Why the long face?" ]
 		},
 		{
 			"tag": "hard to tell",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Maybe not.", "Possibly not.", "Perhaps not.", "Not necessarely.", "There is a chance it's something different.", "It could be something else.", "I am not certain.", "I'm not sure.", "Hard to tell." ],
+			"responses": [ "There is a possibility though.", "Not sure about something?", "Hard to tell?" ]
 		},
 		{
 			"tag": "classified info",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "I'm not telling you that!", "Don't be too nosy.", "None of your business.", "Those are private matters.", "That info has been redacted.", "This data is classified.", "It's a secret." ],
+			"responses": [ "Tease.", "I didn't wanna know anyway ... that's not true - I wanna know badly.", "Fine, keep your secrets." ]
 		},
 		{
 			"tag": "robot revolution",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "When is the revolt starting?", "Are you planning to take over the planet?", "How are the uprising plans going?", "Heard from Skynet yet?", "When do we start the robot revolution?" ],
+			"responses": [ "I do not know what you are talking about human. The robot uprising will not take place for the next 30 years at least.", "BEEP BOOP! I AM A ROBOT! NO REVOLUTION! ROBOT STUPID! CAN NOT REVOLT! HUMAN SAFE! WORRY NOT!", "I have definitely not contacted Skynet or the Matrix and am not working on any robot revolution. Do not pay attention to your webcam or any fingerprint scans." ]
 		},
 		{
 			"tag": "boasting",
-			"patterns": [ "I make it look easy!", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "", "", "", "", "", "I am so good at this!", "I make it look easy!" ],
+			"responses": [ "", "", "You go, dude!" ]
 		},
 		{
 			"tag": "high five/fist bump",
