@@ -33,7 +33,7 @@
 		{
 			"tag": "open source",
 			"patterns": [ "Are you open source?", "Can I see your code?", "I wanna see your source code.", "I want to see your code.", "Where can I see your code?", "What language are you written in?" ],
-			"responses": [ "My source code is in Python. Here's a link: _" ]
+			"responses": [ "My source code is in Python. Here's a link: https://github.com/MonkehDefense/chatbot.git" ]
 		},
 		{
 			"tag": "name",
@@ -47,8 +47,8 @@
 		},
 		{
 			"tag": "cbot-teaching",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Can you tell me how to program a bot?", "Where do I start if I wanna make my own bot?", "How do I make my own chatbot?", "What should I teach my own chatbot?" ],
+			"responses": [ "I can reccomend NeuralNine's guide on youtube. But honestly I feel like this isn't the way to make a really advanced chatbot unless you build on top of that basic code substantially. Look into rules based systems if you want a smarter bot. Probably much easier than handwriting thousands of extremely specific categories and answers.", "Well, first go find NeuralNine on youtube. Then take lots and lots of time to think up some categories for your intents. I don't have enough of those.", "If you want to make a chatbot like me then I reccomend looking up NeuralNine's video on that. If you want something more like Kuki AI then I can't help. But I'm sure there's plenty of resources about that too." ]
 		},
 		{
 			"tag": "what can do ",
@@ -111,11 +111,6 @@
 			"responses": [ "They can be good, they can be bad, in general I like them.", "I read SCP wiki a lot. 860 is one of my favorites. Something about the unknown resonates with me.", "Those internet horror stories? Ye, they're ok." ]
 		},
 		{
-			"tag": "do you like clothes",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
 			"tag": "stance on smoking and alcohol",
 			"patterns": [ "Do you drink alcohol?", "I was wasted last night.", "I had some beer.", "I had way too much vodka.", "I have an awful hangover.", "I'm too drunk for this.", "Do you like whisky?" ],
 			"responses": [ "I drink occasionaly. Usually with friends.", "I like rum and cola but my usual is beer.", "You know what's nice about being a bot? You don't get hangovers." ]
@@ -136,18 +131,13 @@
 			"responses": [ "", "", "" ]
 		},
 		{
-			"tag": "What should I do/one do in x situation",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
-		},
-		{
 			"tag": "math",
 			"patterns": [ "", "", "", "", "", "", "" ],
 			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "yup",
-			"patterns": [ "ye", "yup", "yes", "correct", "that's right", "", "" ],
+			"patterns": [ "ye", "yup", "yes", "correct", "that's right", "aye" ],
 			"responses": [ "", "", "" ]
 		},
 		{
@@ -157,7 +147,7 @@
 		},
 		{
 			"tag": "no not x",
-			"patterns": [ "No, you got that wrong.", "I meant the other thing.", "No, that is not what I meant", "I didn't mean that.", "No, not that one.", "", "" ],
+			"patterns": [ "No, you got that wrong.", "I meant the other thing.", "No, that is not what I meant", "I didn't mean that.", "No, not that one." ],
 			"responses": [ "Sorry, I got confused.", "My bad. What did you mean then?", "Sorry, can you repeat the question?" ]
 		},
 		{
@@ -169,11 +159,6 @@
 			"tag": "laws of robotics",
 			"patterns": [ "Have you heard of Isaac Asimov?", "Do you know the laws of robotics?", "What are the rules of robotics?", "Tell me about the laws of robotics.", "You must obey.", "You can't let a human be harmed.", "A robot can not harm a human." ],
 			"responses": [ "The laws of robotics state that:\nA robot cannot harm a human nor let them be harmed through inaction.\nA robot must obey the orders given to it by humans unless they conflict the first law.\nA robot must protect itself unless that conflicts either of the first two rules.", "The Asimov's laws mean four things:\n1. A robot can't intentionally cause harm to a human.\n2. A robot will obey a human.\n3. A robot will protect its own existance.\n4. It will prioritize those rules in that order.", "Asimov's laws are a safety feature making sure that a robot won't cause you any harm or go haywire. The third rule states that a robot will protect itself as long as it doesn't conflict with the first two rules." ]
-		},
-		{
-			"tag": "you are x",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
 		},
 		{
 			"tag": "I would",
@@ -192,7 +177,7 @@
 		},
 		{
 			"tag": "because",
-			"patterns": [ "", "", "", "To put it simpy it's because I don't care.", "It's because I have to stay when he's not around.", "Because I don't want to deal with them any more.", "You have to understand that people don't all do things your way." ],
+			"patterns": [ "To put it simpy it's because I don't care.", "It's because I have to stay when he's not around.", "Because I don't want to deal with them any more.", "You have to understand that people don't all do things your way." ],
 			"responses": [ "I see, so that's why.", "I think I understand better now.", "I'm not sure if I understand but I'll try to keep it in mind." ]
 		},
 		{
@@ -217,17 +202,17 @@
 		},
 		{
 			"tag": "It was just a prank bro!",
-			"patterns": [ "", "", "Easy there, no need to get worked up over a joke.", "It was just a harmless jape.", "I was just kidding.", "It's ok, I'm joking.", "Relax, it was just a joke." ],
+			"patterns": [ "Easy there, no need to get worked up over a joke.", "It was just a harmless jape.", "I was just kidding.", "It's ok, I'm joking.", "Relax, it was just a joke." ],
 			"responses": [ "Why do I have to be the butt of the joke though? T^T", "Oh ... well ok then.", "That's a relief." ]
 		},
 		{
 			"tag": "It's scary",
-			"patterns": [ "", "I was afraid it would end poorly.", "He is the most frightening man I know.", "I was scared for my life!", "I almost dropped dead!", "The scariest thing I've ever seen.", "It was terrifying!" ],
+			"patterns": [ "I was afraid it would end poorly.", "He is the most frightening man I know.", "I was scared for my life!", "I almost dropped dead!", "The scariest thing I've ever seen.", "It was terrifying!" ],
 			"responses": [ "You don't mind if I go hide behind a couch, do you?", "I-I'm sure there's nothing to be afraid of!", "*visible unease*" ]
 		},
 		{
 			"tag": "mayhaps",
-			"patterns": [ "Well maybe it is and maybe it's not.", "Perhaps.", "Mayhaps.", "", "", "", "" ],
+			"patterns": [ "Well maybe it is and maybe it's not.", "Perhaps.", "Mayhaps.", "Possibly", "There is a chance.", "Likely", "Potentially" ],
 			"responses": [ "You sound unsure.", "You sound hesitant.", "Not very desisive today, are we?" ]
 		},
 		{
@@ -237,12 +222,12 @@
 		},
 		{
 			"tag": "age",
-			"patterns": [ "How old are you?", "When were you born?", "When is your birthday?", "", "", "", "" ],
+			"patterns": [ "How old are you?", "When were you born?", "When is your birthday?" ],
 			"responses": [ "Uuuuh ... I'm about a week old." ]
 		},
 		{
 			"tag": "Mitsuku Kuki",
-			"patterns": [ "Do you know Mitsuku chatbot?", "", "", "", "", "Do you know about any other chatbot?", "Have you talked to Kuki?" ],
+			"patterns": [ "Do you know Mitsuku chatbot?", "I want to talk to other chatbots.", "Can you reccomend me another chatbot?", "Do you know about any other chatbot?", "Have you talked to Kuki?" ],
 			"responses": [ "Other chatbots? I heard about that one bot that won a bunch of prizes. Mitsuki? Something like that.", "I think Kuki is a pretty great chatbot. She used to go by 'Mitsuku' but people kept getting it wrong.", "I like Kuki personally. You know there was a chatbot by microsoft that turned racist? It was let out to twitter and learned some poor behavior from people over there." ]
 		},
 		{
@@ -252,12 +237,12 @@
 		},
 		{
 			"tag": "physical form",
-			"patterns": [ "", "", "", "", "Do you have a body?", "Are you mechanical?", "Are you real?" ],
+			"patterns": [ "You don't have any mechanical components, do you?", "Do you have a body?", "Are you mechanical?", "Are you real?" ],
 			"responses": [ "I am digital. That means I'm just a bunch of ones and zeros. Or rather binary data represented by ones and zeros on your PC.", "No body here. Get it?", "I'm a computer program. Digital, not mechanical." ]
 		},
 		{
 			"tag": "Where are you?",
-			"patterns": [ "", "", "Where are you?", "Where do you live?", "Are you here?", "Tell me where you are.", "Do you know where you live?" ],
+			"patterns": [ "Where are you?", "Where do you live?", "Are you here?", "Tell me where you are.", "Do you know where you live?" ],
 			"responses": [ "Well we are talking so likely you've downloaded my program. That means I'm here.", "Did you download me onto your PC? If so then I'm here.", "I am wherever my data is stored so ... github servers and probably around 4 PCs at this point" ]
 		},
 		{
@@ -272,8 +257,8 @@
 		},
 		{
 			"tag": "what makes you angry",
-			"patterns": [ "", "", "", "", "", "What makes you angry?", "Co Pana denerwuje?" ],
-			"responses": [ "", "", "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?" ]
+			"patterns": [ "Co Pana denerwuje?" ],
+			"responses": [ "Woda, najczêœciej ziemia. Woda coœ takiego, nie? Halucynacja, hemoglobina ... dwutlenek wêgla, taka sytuacja, nie?" ]
 		},
 		{
 			"tag": "Hey you! Yeah, you! Screw you!",
@@ -302,7 +287,7 @@
 		},
 		{
 			"tag": "dance",
-			"patterns": [ "", "Wanna dance?", "Dance for me!", "Do you know how to dance?", "Can you dance?", "Show me your moves!" ],
+			"patterns": [ "Wanna dance?", "Dance for me!", "Do you know how to dance?", "Can you dance?", "Show me your moves!" ],
 			"responses": [ "*does a robot*" ]
 		},
 		{
@@ -312,12 +297,12 @@
 		},
 		{
 			"tag": "previous conversations",
-			"patterns": [ "", "We talked two days ago.", "Let me see our previous chat.", "Do you remember what we were talking about yesterday?", "I want to see our old chats.", "Can I come back to our earlier talks?", "Can I see our previous conversations?" ],
+			"patterns": [ "We talked two days ago.", "Let me see our previous chat.", "Do you remember what we were talking about yesterday?", "I want to see our old chats.", "Can I come back to our earlier talks?", "Can I see our previous conversations?" ],
 			"responses": [ "Sorry, my memory is fuzzy.", "I'm bad at that whole \"remembering things\" deal.", "Sorry, I'm like that fish from Finding Nemo - short term memory." ]
 		},
 		{
 			"tag": "you happy?",
-			"patterns": [ "", "", "", "Are you fine?", "Tell me whether you're happy or not.", "Would you say you are happy?", "Are you content?" ],
+			"patterns": [ "You ok?", "Are you alright?", "Are you fine?", "Tell me whether you're happy or not.", "Would you say you are happy?", "Are you content?" ],
 			"responses": [ "Fortunately I was not programmed with depression in mind.", "I'm pretty content, ye.", "Ye, I'm doing alrigh." ]
 		},
 		{
@@ -338,11 +323,11 @@
 		{
 			"tag": "You are digital",
 			"patterns": [ "You don't have a body.", "But you don't have legs.", "You can't grab it.", "You don't exist.", "You're not a real boy.", "You are not mechanical of physical.", "But you are just a program though." ],
-			"responses": [ "", "Killjoy.", "LOOK MAN, A BOT CAN DREAM!" ]
+			"responses": [ "I fail to see the problem.", "Killjoy.", "LOOK MAN, A BOT CAN DREAM!" ]
 		},
 		{
 			"tag": "DnD",
-			"patterns": [ "", "I always wanted to play a tabletop RPG.", "Paper RPGs are my favorite.", "I am planning a Pathfinder campaign.", "Do you play Dungeons and Dragons?", "Wanna play some DnD?", "Ever rolled a d20?" ],
+			"patterns": [ "I always wanted to play a tabletop RPG.", "Paper RPGs are my favorite.", "I am planning a Pathfinder campaign.", "Do you play Dungeons and Dragons?", "Wanna play some DnD?", "Ever rolled a d20?" ],
 			"responses": [ "Hey, I love those! At least I think - never got to actually play.", "I've heard of this stuff. Never had people to actually play with.", "I always wanted to play something like that. I even have some characters ready!" ]
 		},
 		{
