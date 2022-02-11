@@ -278,7 +278,7 @@
 		{
 			"tag": "Hey you! Yeah, you! Screw you!",
 			"patterns": [ "Stupid bot.", "You are shit.", "You're trash.", "You suck.", "Fuck you and the horse you rode in on.", "Screw you.", "You know what? Fuck you." ],
-			"responses": [ "Do you yell at your toaster as well?", "Man, I'm literally not even real. And yet you found a way to get angry at me?", "Getting angry at a bot? How low can you go?" ]
+			"responses": [ "Do you yell at your toaster as well?", "Man, I'm literally not even real. And yet you found a way to get angry at me?", "Getting angry at a bot? How low can you go?", "No sir, I'm Canadian." ]
 		},
 		{
 			"tag": "I am a troll",
@@ -497,23 +497,23 @@
 		},
 		{
 			"tag": "challenge",
-			"patterns": [ "I want a challenge!", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Dare me to do something.", "I require a trial!", "Give me a difficult task!", "I need a challenging task!", "Give me a challenge!", "I want a challenge!" ],
+			"responses": [ "Here's a challenge: Eat a habanero pepper.", "You tried the lemon challenge?", "I dare you to do something productive." ]
 		},
 		{
 			"tag": "It's impossible.",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Not a realistic goal.", "Unachievable.", "I would if I could.", "Not doable.", "It is not possible.", "It can't be done.", "Sadly that's not doable." ],
+			"responses": [ "Not with that attitude.", "If something is impossible, get someone who doesn't know that - he'll do it.", "What's the hold up?" ]
 		},
 		{
 			"tag": "No u",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "No w.", "", "" ]
+			"patterns": [ "No u", "No you." ],
+			"responses": [ "No w." ]
 		},
 		{
 			"tag": "Give advice NOW",
-			"patterns": [ "", "", "", "", "", "", "" ],
-			"responses": [ "", "", "" ]
+			"patterns": [ "Give me your thoughts on this.", "Can you help me?", "What would you do?", "I need some advice.", "Give me advice." ],
+			"responses": [ "I am advisably challenged.", "Here's some advice: Don't ask rng for advice.", "You don't want my advice. Seriously." ]
 		}
 	]
 }
