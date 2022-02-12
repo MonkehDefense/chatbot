@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc8b9289-452e-47de-862c-287323ed7c5c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chatbot.py</StartupFile>
+    <StartupFile>chatbot_trainer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
