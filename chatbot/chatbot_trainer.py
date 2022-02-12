@@ -59,16 +59,16 @@ train_y = list(training[:,1])
 print(len(train_x))
 model = keras.models.Sequential([
 	layers.Dense(128,input_shape=(len(train_x[0]),), activation='relu'),
-	layers.Dropout(.4),
+	layers.Dropout(.3),
 	layers.Dense(64, activation='relu'),
-	layers.Dropout(.4),
+	layers.Dropout(.3),
 	layers.Dense(32, activation='relu'),
-	layers.Dropout(.4),
+	layers.Dropout(.3),
 	layers.Dense(len(train_y[0]), activation='softmax')
 ])
 
 model.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate = .001), metrics=['accuracy'])
 
-fit = model.fit(np.array(train_x), np.array(train_y), epochs=1800, batch_size=15, verbose=1, validation_split=.3)
+fit = model.fit(np.array(train_x), np.array(train_y), epochs=1800, batch_size=15, verbose=1, validation_split=.2)
 model.save('chatbot_model.h5', fit)
 print('Done!\n')

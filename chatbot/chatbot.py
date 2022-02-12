@@ -41,15 +41,18 @@ def predict_class(sentence):
 	return return_list
 
 def get_response(intents_list, intents_json):
-	tag = intents_list[0]['intent']
-	list_of_intents = intents_json['intents']
-	for i in list_of_intents:
-		if i['tag'] == tag:
-			result = np.random.choice(i['responses'])
-			break
-	return result
+	if len(intents_list) != 0:
+		tag = intents_list[0]['intent']
+		list_of_intents = intents_json['intents']
+		for i in list_of_intents:
+			if i['tag'] == tag:
+				result = np.random.choice(i['responses'])
+				break
+		return result
+	else:
+		return 'Sorry, I didn\'t quite get that.'
 
-#print('dziala')
+print('dziala\n\n')
 
 while True:
 	message = input('')
