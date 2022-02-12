@@ -59,11 +59,11 @@ train_y = list(training[:,1])
 print(len(train_x))
 model = keras.models.Sequential([
 	layers.Dense(128,input_shape=(len(train_x[0]),), activation='relu'),
-	layers.Dropout(.5),
+	layers.Dropout(.4),
 	layers.Dense(64, activation='relu'),
-	layers.Dropout(.5),
+	layers.Dropout(.4),
 	layers.Dense(32, activation='relu'),
-	layers.Dropout(.5),
+	layers.Dropout(.4),
 	layers.Dense(len(train_y[0]), activation='softmax')
 ])
 
