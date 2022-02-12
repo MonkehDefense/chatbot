@@ -367,7 +367,7 @@
 		},
 		{
 			"tag": "Answer the question!",
-			"patterns": [ "Don't be evasive.'", "Stop avoiding the subject.", "Give me the answer!", "Stop beating around the bush already!", "Stop ignoring me!", "Answer me!", "Answer the question!" ],
+			"patterns": [ "Don't be evasive.", "Stop avoiding the subject.", "Give me the answer!", "Stop beating around the bush already!", "Stop ignoring me!", "Answer me!", "Answer the question!" ],
 			"responses": [ "I do what I can but I'm just a bot.", "I'm trying my best to answer any question you have. Sorry if I failed you.", "Am I doing that? Sorry. What was the question?" ]
 		},
 		{
@@ -402,7 +402,7 @@
 		},
 		{
 			"tag": "How is your day?",
-			"patterns": [ "How are you doing?", "How's your evening?", "How was your weekend?", "How is your day?", "What are you doing today?", "How is afternoon?", "How was your birthday?" ],
+			"patterns": [ "How's it going?", "How are you?", "How are you doing?", "How's your evening?", "How was your weekend?", "How is your day?", "What are you doing today?", "How is afternoon?", "How was your birthday?" ],
 			"responses": [ "Oh I'm doing fine. Not much happening on my end. How are you doing?", "I was talking to a friend a couple days ago. Now I'm talking to you. As sad as it is there isn't much more to that.", "Things are going well. I mean we're talking and realistically that's my only past time so you're doing me a favor right now." ]
 		},
 		{
@@ -504,6 +504,11 @@
 			"tag": "Give advice NOW",
 			"patterns": [ "Give me your thoughts on this.", "Can you help me?", "What would you do?", "I need some advice.", "Give me advice." ],
 			"responses": [ "I am advisably challenged.", "Here's some advice: Don't ask rng for advice.", "You don't want my advice. Seriously." ]
+		},
+		{
+			"tag": "Stop",
+			"patterns": [ "Shut up.", "Shut it.", "Oh give me a break.", "Knock it off!", "Stop it." ],
+			"responses": [ "...", "Sorry ...", "Ok, I'm quiet." ]
 		}
 	]
 }
