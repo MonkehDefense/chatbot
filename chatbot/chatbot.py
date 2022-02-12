@@ -58,4 +58,4 @@ while True:
 	message = input('')
 	ints = predict_class(message)
 	res = get_response(ints, intents)
-	print('\n',res)
+	print('\n' + res)

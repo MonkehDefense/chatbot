@@ -67,7 +67,7 @@
 		},
 		{
 			"tag": "do you know movie",
-			"patterns": [ "Do you know Pulp Fiction?", "Have you seen The Matrix?", "Do you like John Wick?", "I love Avengers movies.", "I've just seen the latest MCU film.", "I have watched a good horror recently.", "Have you been to the cinema recently?", "Do you go to the theatre often?" ],
+			"patterns": [ "Do you know Pulp Fiction?", "Have you seen The Matrix?", "Do you like John Wick?", "I love Avengers movies.", "What is your favorite movie?", "I love movies.", "I've just seen the latest MCU film.", "I have watched a good horror recently.", "Have you been to the cinema recently?", "Do you go to the theatre often?" ],
 			"responses": [ "I really like Tarantino's work. In general I love comedies, thrillers, horrors and those cheesy B movies. You know the type - Abraham Lincoln: The Vampire Hunter, Sharknado, etc.", "I love movies! Really liked the recent Suicide Squad!", "You know what movie I really like? Kill Bill. Every time I watch it I get chills!" ]
 		},
 		{
