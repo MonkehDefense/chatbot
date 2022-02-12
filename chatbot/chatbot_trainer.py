@@ -15,8 +15,8 @@ classes = []
 documents = []
 ignore = ['?','!','.',',']
 
-lemm = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+lemm = WordNetLemmatizer() # struktura wyciągająca rdzeń wyrazu
+intents = json.loads(open('intents.json').read())	# dane treningowe
 
 for intent in intents['intents']:
 	for pattern in intent['patterns']:
@@ -41,9 +41,10 @@ output_empty = [0] * len(classes)
 
 for document in documents:
 	bag = []
+	# word_patterns = lista rdzeni wyrazów dla danego tupla (lista słów, tag)
 	word_patterns = [lemm.lemmatize(word.lower()) for word in document[0]]
 	for word in words:
-		bag.append(1) if word in word_patterns else bag.append(0)
+		bag.append(1 if word in word_patterns else 0)
 
 	output_row = list(output_empty)
 	output_empty[classes.index(document[1])] = 1
@@ -66,8 +67,8 @@ model = keras.models.Sequential([
 	layers.Dropout(.5),
 	layers.Dense(128, activation='softmax')
 ])
-
-sgd = SGD(lr=.01,decay=1e-6,momentum=.9,nesterov=True)
+#lr=.01,decay=1e-6,momentum=.9,nesterov=True
+sgd = Adam(learning_rate = .01, decay = 1e-6, momentum = .9, nesterov = True)
 
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
