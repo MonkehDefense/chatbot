@@ -1,7 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
-from tensorflow.keras.optimizers import Adam, SGD
+from tensorflow.keras.optimizers import Adam
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -10,28 +10,28 @@ import numpy as np
 import json
 import pickle
 
-words = []
-classes = []
+words = set()
+classes = set()
 documents = []
-ignore = ['?','!','.',',']
+ignore = ['?','!','.',',','-',"'"]
 
-lemm = WordNetLemmatizer() # struktura wyciągająca rdzeń wyrazu
+lemm = WordNetLemmatizer()	# struktura wyciągająca rdzeń wyrazu
 intents = json.loads(open('intents.json').read())	# dane treningowe
 
 for intent in intents['intents']:
-	for pattern in intent['patterns']:
-		word_list = nltk.word_tokenize(pattern)
-		words.append(word_list)
-		documents.extend((word_list, intent['tag']))
-		if intent['tag'] not in classes:
-			classes.append(intent['tag'])
+	for pattern in intent['patterns']:	# dla każdej kategorii/taga i każdego przykładowego pytania dla tego taga:
+		word_list = nltk.word_tokenize(pattern)	# utwórz listę słów w pytaniu
+		words.update(word_list)	# dodaj nowe słowa do words
+		documents.append((word_list, intent['tag']))	# dodaj tupla (word_list, kategoria) do dokumentów
+		classes.update([intent['tag']])	# Dodaj tag do classes, jeśli jeszcze go tam nie ma
 
 #print(documents)
-words = [lemm.lemmatize(word) for word in words if word not in ignore]
-words = sorted(set(words))
+words = [lemm.lemmatize(word.lower()) for word in words if word not in ignore]	# wyciągnij rdzenie słów z words
+words = sorted(words)
 #print(words)
 
-classes = sorted(set(classes))
+classes = sorted(classes)
+#print(classes)
 
 pickle.dump(words, open('words.pkl','wb'))
 pickle.dump(classes, open('classes.pkl','wb'))
@@ -40,15 +40,16 @@ training = []
 output_empty = [0] * len(classes)
 
 for document in documents:
-	bag = []
+	bag = []	# bag of words
 	# word_patterns = lista rdzeni wyrazów dla danego tupla (lista słów, tag)
 	word_patterns = [lemm.lemmatize(word.lower()) for word in document[0]]
 	for word in words:
 		bag.append(1 if word in word_patterns else 0)
 
-	output_row = list(output_empty)
-	output_empty[classes.index(document[1])] = 1
-	training.append([bag,output_row])
+	#print(document)
+	output_row = output_empty[:] #skopiuj output_empty
+	output_row[classes.index(document[1])] = 1	# oznacz klasę zawartą w dokumencie, przez jej indeks w classes
+	training.append([bag,output_row])	# zapisz parę bag of words i output row - wektory opisujące występujące słowa i właściwą kategorię
 
 training = np.array(training)
 np.random.shuffle(training)
@@ -61,17 +62,13 @@ model = keras.models.Sequential([
 	layers.Dropout(.5),
 	layers.Dense(64, activation='relu'),
 	layers.Dropout(.5),
-	layers.Dense(128, activation='relu'),
-	layers.Dropout(.5),
-	layers.Dense(len(train_y[0]), activation='relu'),
-	layers.Dropout(.5),
-	layers.Dense(128, activation='softmax')
+	layers.Dense(len(train_y[0]), activation='softmax')
 ])
 #lr=.01,decay=1e-6,momentum=.9,nesterov=True
-sgd = Adam(learning_rate = .01, decay = 1e-6, momentum = .9, nesterov = True)
+#adam = Adam(learning_rate = .01)
 
-model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate = .01), metrics=['accuracy'])
 
-fit = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+fit = model.fit(np.array(train_x), np.array(train_y), epochs=50, batch_size=5, verbose=1, validation_split=.2)
 model.save('chatbot_model.h5', fit)
 print('Done!\n')
