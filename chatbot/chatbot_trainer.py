@@ -65,18 +65,17 @@ model = keras.models.Sequential([
 	layers.Dense(128, activation='relu'),
 	layers.Dropout(.3),	#3
 	layers.Dense(64, activation='relu'),
-	layers.Dropout(.3),
 	layers.Dense(len(train_y[0]), activation='softmax')
 ])
 
-model.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate = .0015), metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=Adam(learning_rate = .001), metrics=['accuracy'])
 
-fit = model.fit(np.array(train_x), np.array(train_y), epochs=350, batch_size=5, verbose=1, validation_split=.2)
+fit = model.fit(np.array(train_x), np.array(train_y), epochs=1800, batch_size=5, verbose=1, validation_split=.2)
 
-#fig, ax = plt.subplots(1, 2, figsize=(9, 3))
-#ax[0].plot(fit.history['loss'])
-#ax[0].plot(fit.history['val_loss'])
-#ax[1].plot(fit.history['accuracy'])
-#ax[1].plot(fit.history['val_accuracy'])
-#plt.show()
-#model.save('chatbot_model.h5', fit)
+fig, ax = plt.subplots(1, 2, figsize=(9, 3))
+ax[0].plot(fit.history['loss'])
+ax[0].plot(fit.history['val_loss'])
+ax[1].plot(fit.history['accuracy'])
+ax[1].plot(fit.history['val_accuracy'])
+plt.show()
+model.save('chatbot_model.h5', fit)
