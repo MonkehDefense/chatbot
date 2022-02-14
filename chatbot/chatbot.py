@@ -52,10 +52,10 @@ def get_response(intents_list, intents_json):
 	else:
 		return 'Sorry, I didn\'t quite get that.'
 
-print('dziala\n\n')
+#print('Działa!\n\n')
 
 while True:
 	message = input('')
 	ints = predict_class(message)
 	res = get_response(ints, intents)
-	print('\n' + res)
+	print('\n' + res +'\n')

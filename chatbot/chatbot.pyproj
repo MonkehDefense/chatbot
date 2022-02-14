@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc8b9289-452e-47de-862c-287323ed7c5c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>chatbot.py</StartupFile>
+    <StartupFile>chatbot_trainer.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="chatbot_trainer.py" />
     <Compile Include="chatbot.py" />
+    <Compile Include="konwerter.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
