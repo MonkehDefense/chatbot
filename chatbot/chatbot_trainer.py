@@ -63,7 +63,7 @@ train_y = list(training[:,1])
 
 
 model = keras.models.Sequential([
-	layers.Dense(256, activation='relu'),
+	layers.Dense(256,input_shape = len(train_x[0]),activation='relu'),
 	layers.Dropout(.5),
 	layers.Dense(128, activation='relu'),
 	layers.Dropout(.5),
