@@ -7,11 +7,11 @@ from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import load_model
 
 lemm = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('new_data2.json').read())
 
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
-model = load_model('chatbot_model2.h5')
+model = load_model('chatbot_model_v7.h5')
 
 def clean_up_sentence(sentence):
 	sentence_words = nltk.word_tokenize(sentence)

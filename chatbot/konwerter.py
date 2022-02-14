@@ -25,7 +25,7 @@ for intent in new_intents:
 	intent['responses'] = [response[0] if isinstance(response, list) else response for response in intent['responses']]
 
 with open('new_data2.json', 'w') as f:
-    json.dump(new_intents, f)
+    json.dump({'intents': new_intents}, f)
 
 
 
